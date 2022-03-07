@@ -2,12 +2,13 @@
     "name": "contactbook-backend",
     "version": "1.0.0",
     "description": "",
-    "main": "server.js",
+    "main": "index.js",
     "scripts": {
-        "start": "nodemon app.js",
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon server.js"
     },
-    "author": "Bang Trinh",
+    "keywords": [],
+    "author": "",
     "license": "ISC",
     "dependencies": {
         "cors": "^2.8.5",
